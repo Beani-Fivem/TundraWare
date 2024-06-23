@@ -9,8 +9,8 @@ end)
 tool.Parent = game.Players.LocalPlayer.Backpack
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "TundraWare";
-    Text = "Tap in";
+    Title = "skibidi gyat";
+    Text = "Start looksmaxxing";
 
 })
 
@@ -26,13 +26,13 @@ player.CharacterRemoving:Connect(function()
     tool.Parent = game.Players.LocalPlayer.Backpack
 end)
 
---Tundra
+--Made By Xarcax, reworked by k0nkx/asainyuh, Haafli helped on orbit thx
 
---Tundra
+--Heavily pasted btw just like aura x
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kpLzpNXc"))()
 
-local Window = Library:CreateWindow("TundraWare", Vector2.new(300, 300), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow("Aura X Remake", Vector2.new(300, 300), Enum.KeyCode.RightShift)
 local AkaliNotif =
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
     
@@ -45,9 +45,9 @@ local TeleportTab = Window:CreateTab("Teleports")
 local testSection = MiscTab:CreateSector("Misc", "left")
 
 testSection:AddButton(
-    "Tundrax2",
+    "RightClick",
     function()
-        loadstring(game:HttpGet('.'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
     end
 )
 
@@ -109,7 +109,7 @@ testSection:AddToggle(
 
 testSection:AddDropdown(
     "HitPart",
-    {"Head", "HumanoidRootPart", "UpperTorso", "LowerTorso", "ILoveAstrid"},
+    {"Head", "HumanoidRootPart", "UpperTorso", "LowerTorso", "Penis"},
     "UpperTorso",
     false,
     function(Option)
@@ -173,8 +173,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot
 local Settings = {
     rewrittenmain = {
         Enabled = true,
-        Key = "q",
-        DOT = false,
+        Key = "c",
+        DOT = true,
         AIRSHOT = true,
         NOTIF = true, 
         AUTOPRED = true, 
@@ -306,7 +306,7 @@ local PredictionValue = 0.24
         e.AlwaysOnTop = Settings.rewrittenmain.DOT
         local a = Instance.new("Frame", e)
         if Settings.rewrittenmain.DOT == true then
-        a.Size = UDim2.new(0, 0, 0)
+        a.Size = UDim2.new(2, 2, 2)
         else
         a.Size = UDim2.new(0, 0, 0, 0)
         end
@@ -359,7 +359,7 @@ local PredictionValue = 0.24
         placemarker.Anchored = true
         placemarker.CanCollide = false
         if Settings.rewrittenmain.DOT == true then
-        placemarker.Size = Vector3.new(0, 0, 0)
+        placemarker.Size = Vector3.new(6, 6, 6)
         else
         placemarker.Size = Vector3.new(0, 0, 0)
         end
@@ -710,7 +710,7 @@ Mouse.KeyDown:Connect(function(k)
                 end	
             end	
         else	
-            Notify("Lock is not enabled!")	
+            Notify("Aimlock is not enabled!")	
         end	
     end	
     if k == SelectedDisableKey then	
