@@ -151,7 +151,7 @@ testSection:AddTextbox(
 
 getgenv().RecurringPoint = "UpperTorso"
 getgenv().Hitbox = "UpperTorso"
-getgenv().Keybind = "q"
+getgenv().Keybind = "xbutton5"
 getgenv().AimbotStrengthAmount = 0.405
 getgenv().PredictionAmount = 10
 getgenv().Radius = 50
@@ -173,7 +173,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot
 local Settings = {
     rewrittenmain = {
         Enabled = true,
-        Key = "q",
+        Key = "xbutton5",
         DOT = false,
         AIRSHOT = true,
         NOTIF = true, 
